@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.testing.rahal.firstapplication.FirstTester">-->
+<!--<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <Button
+        android:id="@+id/b_on"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="ON"/>
+        <!--tools:layout_editor_absoluteX="28dp"-->
+        <!--tools:layout_editor_absoluteY="16dp" />-->
+
+    <Button
+        android:id="@+id/b_off"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/b_on"
+
+        android:text="OFF"/>
+        <!--tools:layout_editor_absoluteX="28dp"-->
+        <!--tools:layout_editor_absoluteY="81dp" />-->
+
+    <Button
+        android:id="@+id/b_disc"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="DISCOVERABLE"/>
+        <!--tools:layout_editor_absoluteX="228dp"-->
+        <!--tools:layout_editor_absoluteY="16dp" />-->
+
+    <Button
+        android:id="@+id/b_list"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="LIST"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/b_disc"/>
+        <!--tools:layout_editor_absoluteX="228dp"-->
+        <!--tools:layout_editor_absoluteY="81dp" />-->
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/Widget.AppCompat.ListView"
+        android:layout_width="368dp"
+        android:layout_height="251dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/b_list"
+
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark" />
+        <!--tools:layout_editor_absoluteX="8dp"-->
+        <!--tools:layout_editor_absoluteY="143dp" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+</RelativeLayout>
+<!--</LinearLayout>-->
